@@ -27,7 +27,6 @@ export default function Work() {
     },
   ];
 
-  // Animation variants for the reveal
   const cardVariants = {
     offscreen: { y: 50, opacity: 0, scale: 0.95 },
     onscreen: { 

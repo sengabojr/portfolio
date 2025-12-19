@@ -1,5 +1,4 @@
 import React from 'react';
-// Note the curly braces here:
 import { GitHubCalendar } from 'react-github-calendar'; 
 import { motion } from 'framer-motion';
 

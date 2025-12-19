@@ -31,7 +31,6 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           
 
-            {/* LINK TO ABOUT */}
             <Link to="/about">
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -45,7 +44,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
+
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}

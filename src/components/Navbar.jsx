@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-[100] backdrop-blur-xl border-b border-white/5 bg-[#0f172a]/80 px-6 py-5">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
-        {/* Logo */}
+
         <Link to="/" onClick={() => setIsOpen(false)} className="text-2xl font-black tracking-tighter text-white z-[110]">
           S<span className="text-cyan-500">JR</span>
         </Link>

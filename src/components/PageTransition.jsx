@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // Check this line carefully
+import { motion } from 'framer-motion'; 
 
 const animations = {
   initial: { opacity: 0, y: 20 },

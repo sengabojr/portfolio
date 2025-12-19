@@ -78,7 +78,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-xs uppercase tracking-[0.2em] mb-8">Late Night Vibe</h3>
             <div className="bg-slate-900/50 border border-white/5 p-6 rounded-3xl relative h-32 overflow-hidden group">
               
-              {/* Visualizer bars background */}
+              {/* Visualizer bars bg */}
               <div className="absolute bottom-0 left-0 w-full flex items-end gap-1 px-6 opacity-10 pointer-events-none">
                 {[...Array(15)].map((_, i) => (
                   <div 
