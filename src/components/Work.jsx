@@ -5,25 +5,25 @@ import PageTransition from './PageTransition';
 export default function Work() {
   const projects = [
     {
-      title: "Fullstack E-Commerce",
-      category: "Web Development",
-      tech: ["React", "Node.js", "MongoDB"],
+      title: "Stock Management",
+      category: "Fullstack Development",
+      tech: ["React", "Node.js", "MySQL"],
       description: "A high-performance store with real-time inventory and secure checkout.",
-      link: "https://github.com/sengabojr",
+      link: "https://github.com/sengabojr/la-la-sims",
     },
     {
-      title: "Task Management AI",
-      category: "Architecture",
-      tech: ["Python", "Next.js", "PostgreSQL"],
+      title: "Smart Student Tracking System",
+      category: "Fullstack Development",
+      tech: ["HTML", "TailwindCSS", "MySQL"],
       description: "Automating workflow management using machine learning algorithms.",
-      link: "https://github.com/sengabojr",
+      link: "https://github.com/sengabojr/smart-student-mgt-app",
     },
     {
-      title: "UI Component Library",
+      title: "Portfolio Website",
       category: "Design",
       tech: ["React", "Vite", "Tailwind"],
       description: "A collection of reusable, masterclass-level UI components.",
-      link: "https://github.com/sengabojr",
+      link: "https://github.com/sengabojr/portfolio",
     },
   ];
 
